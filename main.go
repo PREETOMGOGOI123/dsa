@@ -2,6 +2,7 @@ package main
 
 import (
 	"dsa/plusOne"
+	"dsa/sqrt"
 	"fmt"
 )
 
@@ -10,4 +11,7 @@ func main() {
 	result := plusOne.PlusOne(input)
 
 	fmt.Println(result)
+
+	sqrt := sqrt.MySqrt(130)
+	fmt.Println(sqrt)
 }
